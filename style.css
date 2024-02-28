@@ -1,0 +1,214 @@
+:root {
+    font-size: 62.5%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+input,
+body {
+    font-family: 'Mulish', sans-serif;
+
+}
+
+h1 {
+    color: #B52184;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+header,
+#astronauta {
+    width: 100%;
+    padding: 0 3.2rem;
+}
+
+header h1 {
+    font-size: 7.2rem;
+
+
+}
+
+header h2 {
+    color: #312D64;
+
+    text-align: center;
+    font-size: 3.2rem;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 3.5rem;
+}
+
+p header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#topo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#center {
+    background: linear-gradient(96deg, #343193 0%, #302C63 99.68%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5.2rem;
+}
+
+
+
+#card {
+    border-radius: 2.4rem;
+    background: #FFF;
+    box-shadow: 0 0.4rem 1.6rem 0 rgba(0, 0, 0, 0.25);
+    width: 36.6rem;
+    height: 44.8rem;
+    padding: 3.2rem;
+}
+
+#card img {
+    margin-bottom: 4.0rem;
+}
+
+#card h1 {
+    margin-bottom: 2.4rem;
+}
+
+#card p {
+    color: #312D64;
+    font-size: 1.8rem;
+    font-weight: 600;
+
+}
+
+input {
+    height: 4.8rem;
+    width: 31.8rem;
+    border-radius: 1.6rem;
+    border: 0.15rem solid #312D64;
+    color: #312D64;
+    padding-left: 3rem;
+    font-family: Mulish;
+    font-size: 1.6rem;
+    font-style: normal;
+}
+
+textarea {
+    height: 12.0rem;
+    width: 31.8rem;
+    border-radius: 1.6rem;
+    border: 0.15rem solid #312D64;
+    color: #312D64;
+    font-family: Mulish;
+    font-size: 1.6rem;
+    font-style: normal;
+    padding-left: 1.2rem;
+    padding-top: 1.2rem;
+
+}
+
+button {
+    border-radius: 1.6rem;
+    background: linear-gradient(96deg, #343193 0%, #302C63 99.68%);
+    color: #FFF;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    height: 4.5rem;
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 7.5rem;
+}
+
+.logo-person {
+    background-image: url(/assets/person.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+
+
+.logo-at {
+    background-image: url(/assets/at.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    margin-left: 4.2rem;
+
+}
+
+
+footer {
+    height: 7.8rem;
+    background: linear-gradient(96deg, #343193 0%, #302C63 99.68%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+
+}
+
+#estrela {
+    display: none;
+}
+
+@media (width>800px) {
+    #estrela {
+        display: flex;
+    }
+
+    header {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin: 0;
+        padding: 0 0 10.3rem 10.3rem;
+    }
+
+    #topo {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0;
+    }
+
+    #astronauta {
+        width: 71.9rem;
+    }
+
+    h2 {
+
+        margin-bottom: 17.9rem;
+    }
+
+    #center {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #estrela,
+    img {}
+}
